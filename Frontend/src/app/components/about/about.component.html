@@ -30,7 +30,7 @@
     <hr style="color: ivory;">
       <div class="col-md-4">
         <div class="card" style="width: 17rem;" *ngIf="currentMovie">
-           <a routerLink="about" > <img src="https://image.tmdb.org/t/p/w500/{{ currentMovie.poster_path}}" class="card-img-top" alt="..."> </a>
+           <a routerLink="about" > <img src="https://image.tmdb.org/t/p/w500/{{ currentMovie.poster_path}}" class="card-img-top"> </a>
             
         </div>
       </div>
@@ -58,7 +58,7 @@
       <div class="col p-3" *ngFor="let actor of actors">
       <div class="card bg-warning">
           <div>
-              <img src="https://image.tmdb.org/t/p/original/{{actor.profile_path}}" class="card-img-top" alt="...">
+              <img src="https://image.tmdb.org/t/p/original/{{actor.profile_path}}" class="card-img-top">
           </div>
           <br>
           <div class="card-body">
